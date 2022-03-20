@@ -13,7 +13,7 @@ export default defineConfig(({ command, mode }) => {
 		test: {
 			globals: true,
 			includeSource: ['src/**/*.{js,ts}'],
-			setupFiles: './src/test.ts',
+			setupFiles: './test.ts',
 		},
 		resolve: {
 			mainFields: ['fesm2020', 'fesm2015', 'module'],
