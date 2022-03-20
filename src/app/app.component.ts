@@ -12,7 +12,6 @@ export class AppComponent {
 
 if (import.meta.vitest) {
 	const { it, expect, describe, beforeEach } = import.meta.vitest;
-
 	const { TestBed } = await import('@angular/core/testing');
 	const { RouterTestingModule } = await import('@angular/router/testing');
 	const { ViteWelcomeComponent } = await import('./vite-welcome.component');
