@@ -15,13 +15,13 @@ if (import.meta.vitest) {
 
 	const { TestBed } = await import('@angular/core/testing');
 	const { RouterTestingModule } = await import('@angular/router/testing');
-	const { NxWelcomeComponent } = await import('./vite-welcome.component');
+	const { ViteWelcomeComponent } = await import('./vite-welcome.component');
 
 	describe('AppComponent', () => {
 		beforeEach(async () => {
 			await TestBed.configureTestingModule({
 				imports: [RouterTestingModule],
-				declarations: [AppComponent, NxWelcomeComponent],
+				declarations: [AppComponent, ViteWelcomeComponent],
 			}).compileComponents();
 		});
 
