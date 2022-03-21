@@ -1,7 +1,5 @@
 import { defineConfig } from 'vite';
 import { ViteAngularPlugin } from '@nxext/angular-vite';
-import AutoImport from 'unplugin-auto-import/vite'
-
 
 export default defineConfig(({ command, mode }) => {
 	return {
